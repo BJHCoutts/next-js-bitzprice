@@ -1,7 +1,5 @@
 import { Layout } from '../components/layout'
-import Fetch from 'isomorphic-unfetch'
-
-
+import { Prices } from '../components/prices'
 
 const Index = (props) => {
 	for (let property in props) {
@@ -15,7 +13,7 @@ const Index = (props) => {
 					Welcome to BitzPrice
 				</h1>
 				{/* <span>BPI ={props.bpi}</span> */}
-				{/* <span>Time ={props.bpi.time.updated}</span> */}
+				<Prices bpi={props.bpi}/>
 			</>
 		</Layout>
 	)
@@ -27,7 +25,7 @@ Index.getInitialProps = async () => {
 	const data = await res.json()
 	console.log(`data:${data}`)
 
-	return {bpi: data.bpi}
+	return {bpi: data}
 }
 
 export default Index

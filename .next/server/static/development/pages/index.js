@@ -193,6 +193,76 @@ const Navbar = () => {
 
 /***/ }),
 
+/***/ "./components/prices.tsx":
+/*!*******************************!*\
+  !*** ./components/prices.tsx ***!
+  \*******************************/
+/*! exports provided: Prices */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Prices", function() { return Prices; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\basta\\Desktop\\bitzprice\\components\\prices.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+const Prices = props => {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("h2", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 4
+    }
+  }, "Prices"), __jsx("small", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5,
+      columnNumber: 4
+    }
+  }, props.bpi.disclaimer), __jsx("h3", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 4
+    }
+  }, "Last updated @: ", props.bpi.time.updated), __jsx("ul", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 4
+    }
+  }, __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 5
+    }
+  }, "Bitcoin rate for ", props.bpi.bpi.USD.description, " = ", props.bpi.bpi.USD.rate_float, props.bpi.bpi.USD.code), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 5
+    }
+  }, "Bitcoin rate for ", props.bpi.bpi.GBP.description, " = ", props.bpi.bpi.GBP.rate_float, props.bpi.bpi.GBP.code), __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 5
+    }
+  }, "Bitcoin rate for ", props.bpi.bpi.EUR.description, " = ", props.bpi.bpi.EUR.rate_float, props.bpi.bpi.EUR.code), console.log(props.bpi.bpi)));
+};
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
@@ -1880,9 +1950,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./components/layout.tsx");
+/* harmony import */ var _components_prices__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/prices */ "./components/prices.tsx");
 var _jsxFileName = "C:\\Users\\basta\\Desktop\\bitzprice\\pages\\index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 const Index = props => {
@@ -1895,17 +1967,25 @@ const Index = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 10,
       columnNumber: 3
     }
   }, __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 12,
       columnNumber: 5
     }
-  }, "Welcome to BitzPrice")));
+  }, "Welcome to BitzPrice"), __jsx(_components_prices__WEBPACK_IMPORTED_MODULE_2__["Prices"], {
+    bpi: props.bpi,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 5
+    }
+  })));
 };
 
 Index.getInitialProps = async () => {
@@ -1914,7 +1994,7 @@ Index.getInitialProps = async () => {
   const data = await res.json();
   console.log(`data:${data}`);
   return {
-    bpi: data.bpi
+    bpi: data
   };
 };
 
