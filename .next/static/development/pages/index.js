@@ -57,7 +57,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var Navbar = function Navbar() {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("nav", {
-    className: "jsx-2555907172",
+    className: "jsx-886602732",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -73,7 +73,7 @@ var Navbar = function Navbar() {
       columnNumber: 5
     }
   }, __jsx("a", {
-    className: "jsx-2555907172",
+    className: "jsx-886602732",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -89,7 +89,7 @@ var Navbar = function Navbar() {
       columnNumber: 5
     }
   }, __jsx("a", {
-    className: "jsx-2555907172",
+    className: "jsx-886602732",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -97,9 +97,9 @@ var Navbar = function Navbar() {
       columnNumber: 25
     }
   }, "About"))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2555907172",
+    id: "886602732",
     __self: _this
-  }, "nav.jsx-2555907172{background-color:slategrey;}a.jsx-2555907172{color:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcYmFzdGFcXERlc2t0b3BcXGJpdHpwcmljZVxcY29tcG9uZW50c1xcbmF2YmFyLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTZSxBQUdnQyxBQUdkLFlBQ2IsZUFIQSIsImZpbGUiOiJDOlxcVXNlcnNcXGJhc3RhXFxEZXNrdG9wXFxiaXR6cHJpY2VcXGNvbXBvbmVudHNcXG5hdmJhci50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXHJcblxyXG5leHBvcnQgY29uc3QgTmF2YmFyID0gKCkgPT4ge1xyXG5cdHJldHVybihcclxuXHRcdDw+XHJcblx0XHRcdDxuYXY+XHJcblx0XHRcdFx0PExpbmsgaHJlZj1cIi9cIj48YT5Ib21lPC9hPjwvTGluaz5cclxuXHRcdFx0XHQ8TGluayBocmVmPVwiL2Fib3V0XCI+PGE+QWJvdXQ8L2E+PC9MaW5rPlxyXG5cdFx0XHQ8L25hdj5cclxuXHRcdFx0PHN0eWxlIGpzeD57YFxyXG5cdFx0XHRcdG5hdiB7XHJcblx0XHRcdFx0XHRiYWNrZ3JvdW5kLWNvbG9yOnNsYXRlZ3JleTtcclxuXHRcdFx0XHR9XHJcblx0XHRcdFx0YSB7XHJcblx0XHRcdFx0XHRjb2xvcjogd2hpdGU7XHJcblx0XHRcdFx0fVxyXG5cdFx0XHRgfTwvc3R5bGU+XHJcblx0XHQ8Lz5cclxuXHQpXHJcbn0iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\basta\\\\Desktop\\\\bitzprice\\\\components\\\\navbar.tsx */"));
+  }, "nav.jsx-886602732{background-color:slategrey;padding:10px 10px;}a.jsx-886602732{color:white;margin-right:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcYmFzdGFcXERlc2t0b3BcXGJpdHpwcmljZVxcY29tcG9uZW50c1xcbmF2YmFyLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTZSxBQUdnQyxBQUlkLFlBQ00sZUFKQSxHQUtuQixlQUpBIiwiZmlsZSI6IkM6XFxVc2Vyc1xcYmFzdGFcXERlc2t0b3BcXGJpdHpwcmljZVxcY29tcG9uZW50c1xcbmF2YmFyLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcclxuXHJcbmV4cG9ydCBjb25zdCBOYXZiYXIgPSAoKSA9PiB7XHJcblx0cmV0dXJuKFxyXG5cdFx0PD5cclxuXHRcdFx0PG5hdj5cclxuXHRcdFx0XHQ8TGluayBocmVmPVwiL1wiPjxhPkhvbWU8L2E+PC9MaW5rPlxyXG5cdFx0XHRcdDxMaW5rIGhyZWY9XCIvYWJvdXRcIj48YT5BYm91dDwvYT48L0xpbms+XHJcblx0XHRcdDwvbmF2PlxyXG5cdFx0XHQ8c3R5bGUganN4PntgXHJcblx0XHRcdFx0bmF2IHtcclxuXHRcdFx0XHRcdGJhY2tncm91bmQtY29sb3I6c2xhdGVncmV5O1xyXG5cdFx0XHRcdFx0cGFkZGluZzogMTBweCAxMHB4O1xyXG5cdFx0XHRcdH1cclxuXHRcdFx0XHRhIHtcclxuXHRcdFx0XHRcdGNvbG9yOiB3aGl0ZTtcclxuXHRcdFx0XHRcdG1hcmdpbi1yaWdodDogMTBweDtcclxuXHRcdFx0XHR9XHJcblx0XHRcdGB9PC9zdHlsZT5cclxuXHRcdDwvPlxyXG5cdClcclxufSJdfQ== */\n/*@ sourceURL=C:\\\\Users\\\\basta\\\\Desktop\\\\bitzprice\\\\components\\\\navbar.tsx */"));
 };
 
 /***/ }),
@@ -5280,32 +5280,71 @@ module.exports = __webpack_require__(/*! ./dist/style */ "./node_modules/styled-
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./components/layout.tsx");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./components/layout.tsx");
+
+
 var _this = undefined,
     _jsxFileName = "C:\\Users\\basta\\Desktop\\bitzprice\\pages\\index.tsx";
 
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
-var Index = function Index() {
-  return __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_1__["Layout"], {
+var Index = function Index(props) {
+  for (var property in props) {
+    console.log(props[property]);
+  } // console.log(`props: ${props}`)
+
+
+  return __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_2__["Layout"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 12,
       columnNumber: 3
     }
-  }, __jsx("h1", {
+  }, __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx("h1", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 4
+      lineNumber: 14,
+      columnNumber: 5
     }
-  }, "Welcome to BitzPrice"));
+  }, "Welcome to BitzPrice")));
+};
+
+Index.getInitialProps = function _callee() {
+  var res, data;
+  return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          _context.next = 2;
+          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(fetch('https://api.coindesk.com/v1/bpi/currentprice.json'));
+
+        case 2:
+          res = _context.sent;
+          console.log("res:".concat(res));
+          _context.next = 6;
+          return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(res.json());
+
+        case 6:
+          data = _context.sent;
+          console.log("data:".concat(data));
+          return _context.abrupt("return", {
+            bpi: data.bpi
+          });
+
+        case 9:
+        case "end":
+          return _context.stop();
+      }
+    }
+  }, null, null, null, Promise);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index); // npm install --save-dev typescript @types/react @types/node
